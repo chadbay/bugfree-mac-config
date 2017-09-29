@@ -19,10 +19,12 @@ chunkc core::hotload 1
 #
 
 chunkc set global_desktop_mode           bsp
-chunkc set 2_desktop_mode                float
+chunkc set 1_desktop_mode                float
+chunkc set 2_desktop_mode                bsp
 chunkc set 3_desktop_mode                monacle
 
 chunkc set 1_desktop_tree                ~/.chunkwm_layouts/dev_1
+chunkc set 2_desktop_tree                ~/.chunkwm_layouts/dev_2
 
 # chunkc set global_desktop_offset_top     20
 # chunkc set global_desktop_offset_bottom  20
